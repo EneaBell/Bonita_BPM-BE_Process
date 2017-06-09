@@ -32,19 +32,20 @@ To start manually the process, change the view to *User* on the top right. Go on
 We'll showcase the process execution step by step after starting the process using one of two above method.
 
 Click Submit on the initialization form to start the process.  
-![Initialization process]()  
-You should be log in as Jane No, BE user. By going in the Tasks tab, you have a form on the right side where you have to enter the parameters for the diagnostic. Enter a Garage ID, for example : G_001. Then enter the Engine serial number, can be anything but the presence of a *d* will return a diagnostic of a defective engine. Click submit to go to the next step.
-![Diagnostic of engine]()  
+![Initialization process](https://github.com/EneaBell/Bonita_BPM-BE_Process/blob/master/img/Run-through_1.PNG)  
+You should be log in as Jane No, BE user. By going in the Tasks tab, you have a form on the right side where you have to enter the parameters for the diagnostic. Enter a Garage ID, for example : G_001. Then enter the Engine serial number, can be anything but the presence of a *d* will return a diagnostic of a defective engine. In our case, we enter abcd for defective engine. Click submit to go to the next step.
+![Diagnostic of engine](https://github.com/EneaBell/Bonita_BPM-BE_Process/blob/master/img/Run-through_2.PNG)  
 Click on the refresh button after each step to see pending task (we have to wait for the web request).
 You'll see a read-only form that show the result. Submit to continue the process execution.  
-![Diagnostic Review]()  
+![Diagnostic Review](https://github.com/EneaBell/Bonita_BPM-BE_Process/blob/master/img/Run-through_3.PNG)  
 The following tasks are automatic, you are given read-only form to review the retreived result from the web services. Submit the form to continue the process execution  
-![Garage details review]()  
-![Order replacement part review]()  
+![Garage details review](https://github.com/EneaBell/Bonita_BPM-BE_Process/blob/master/img/Run-through_4.PNG)  
+![Order replacement part review](https://github.com/EneaBell/Bonita_BPM-BE_Process/blob/master/img/Run-through_5.PNG)  
 After reviewing the order part, we change user to continue the process. Log out, then log in with the user *acd*.
-In the following task, ACD confirm the reservation date of the technician
-![ACD confirmation]()  
+In the following task, ACD confirm the reservation date of the technician  
+![ACD confirmation](https://github.com/EneaBell/Bonita_BPM-BE_Process/blob/master/img/Run-through_6.PNG)  
 Log back in with the user *be* to see the confirmation and in the following screen, notify BLG.  
-![Tech booking confirmation]()  
-![Notify BLG]()  
-Finally, log in as *blg* to receive the notification. Then the process is over.
+![Tech booking confirmation](https://github.com/EneaBell/Bonita_BPM-BE_Process/blob/master/img/Run-through_7.PNG)  
+![Notify BLG](https://github.com/EneaBell/Bonita_BPM-BE_Process/blob/master/img/Run-through_8.PNG)  
+Finally, log in as *blg* to receive the notification. Then the process is over.  
+![BLG receive notification](https://github.com/EneaBell/Bonita_BPM-BE_Process/blob/master/img/Run-through_9.PNG)
