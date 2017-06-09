@@ -7,7 +7,7 @@ Known issue : Linux v. 7.4.3 had authentication failure on the REST connector.
 
 ## Installation
 You must have 
-Download Bonita BPM Community v. 7.4.3 for window 64 bits [here](http://www.bonitasoft.com/products/download/bonita-bpm-windows-7-4-3-64bit?skip=true). Project is confirmed working on this version.
+Download Bonita BPM Community v. 7.4.3 for window 64 bits [here](http://www.bonitasoft.com/products/download/bonita-bpm-windows-7-4-3-64bit?skip=true). For archiving purpose, the same executable is also available [here](https://www.dropbox.com/s/3m7zkyqwa191amq/BonitaBPMCommunity-7.4.3-x86_64.exe?dl=0). Project is confirmed working on this version.
 Other versions are available [here](http://www.bonitasoft.com/downloads-v2#!). Other setups are described in the [documentation](http://documentation.bonitasoft.com/?page=_installation).
 
 Run the executable to install Bonita BPM on your machine.
