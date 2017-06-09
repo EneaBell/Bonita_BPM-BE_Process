@@ -2,8 +2,16 @@
 EPFL Spring 2017 Semester Project in the LAMS lab. Developed the ESOA BE's Process in Bonita BPM.  
 ![BE_Process](https://github.com/EneaBell/Bonita_BPM-BE_Process/blob/master/ESOA_BE-1.0.png)  
 ## Development specification
-The application has been developed on Bonita BPM v. 7.4.3, Window 64 bits.
-Known issue : Linux v. 7.4.3 had authentication failure on the REST connector.
+The application has been developed on Bonita BPM v. 7.4.3, Window 64 bits.  
+Known issue : Linux v. 7.4.3 had authentication failure on the REST connector.  
+
+## Installation
+You must have 
+Download Bonita BPM Community v. 7.4.3 for window 64 bits [here](http://www.bonitasoft.com/products/download/bonita-bpm-windows-7-4-3-64bit?skip=true). Project is confirmed working on this version.
+Other versions are available [here](http://www.bonitasoft.com/downloads-v2#!). Other setups are described in the [documentation](http://documentation.bonitasoft.com/?page=_installation).
+
+Run the executable to install Bonita BPM on your machine.
+
 ## Import project
 The project can be imported in Bonita BPM by importing the .bos. This is done by clicking in the tab first tab *Diagram -> Import …*.  
 ![import_screenshot](https://github.com/EneaBell/Bonita_BPM-BE_Process/blob/master/img/import_1.PNG)  
